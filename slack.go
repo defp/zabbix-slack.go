@@ -52,6 +52,7 @@ func main() {
 	subject := os.Args[2]
 	message := os.Args[3]
 
+	// some config for slack
 	channel := "#devops"
 	username := "zabbix"
 	subdomain := "mst365"
@@ -67,7 +68,6 @@ func main() {
 		emoji = ":ghost:"
 	}
 
-	// was there a message on the command line? If so use it.
 	msg := SlackMsg{
 		Channel:   channel,
 		Username:  username,
