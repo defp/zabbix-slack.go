@@ -54,7 +54,8 @@ func main() {
 
 	channel := "#devops"
 	username := "zabbix"
-	webhookUrl := "https://mst365.slack.com/services/hooks/incoming-webhook?token=" + token
+	subdomain := "mst365"
+	webhookUrl := "https://" + subdomain + ".slack.com/services/hooks/incoming-webhook?token=" + token
 
 	var emoji string
 	switch subject {
