@@ -12,4 +12,4 @@ go build
 ```
 
 
-**[How to add to zabbix?](http://segmentfault.com/blog/lds/1190000000704239)**
+**[zabbix slack报警教程](http://segmentfault.com/blog/lds/1190000000704239)**
